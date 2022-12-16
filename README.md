@@ -6,7 +6,7 @@ This patch was created for my final project for the Sound Synth Tech class in Fa
 The idea for this came from a piece I wrote in which I manually placed samples in an "organized" random way. There are times when this is necessary (which could be done with a sample instrument), but there are times when complete randomness is fine. 
 
 ### Note to LG:
-*For grading purposes*, I am mainly submitted the **MonoBufferEd** since this version is tested and stable (to my knowledge). The **PolyBufferEd** is still in progress. (If possible, I would love feedback on this version!)
+*For grading purposes*, I am mainly submitted the **MonoBufferEd** since this version is tested and stable (to my knowledge). The **PolyBufferEd** is still in progress and probably not very far by the time you're seeing this!
 
 ## Repo Contents
 There are three main folders in the repository
