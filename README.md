@@ -31,7 +31,7 @@ Here are a list of things that need to be done later on. I was unable to finish 
 - [ ] **Interface with Logic**: find a way to make this a logic patcch for easier use
 - [ ] **Finish Pitching**: Rather than using a random pitchshiftcent distribution, use the frequency analyzer to figure out the tonal center and then make the pitchshiftcent follow a given note distribution (i.e. draw 1st, 2nd, 7th scale degree most)
 - [ ] **Multiple Sample Support**: Allow multiple samples to be used. This should be done by making a patch where you can livedrop all of the paths for buffers.
-- [ ] **BPM Rhythmic Support**: Fix a BPM and time signature such that the ambience isn't just completely random.
+- [x] **BPM Rhythmic Support**: Fix a BPM and time signature such that the ambience isn't just completely random.
 - [ ] **Built in Naive Reverb/EQ**: Logic and other DAWs have very strong reverb tools, but adding a control for Reverb and EQ could be a nice touch (at leat pedagogically).
 - [ ] **Reverse Play**: Use a sel object for reverse play. 
 
