@@ -21,7 +21,7 @@ There are three main folders in the repository
 Please refer to the README.md files contained in the **MonoBufferEd** and **PolyBufferEd**. You can start by clicking on the folder of the version you would like to use and refer to the respective README.md files. 
 
 ## Differences between Mono and Poly buffer editions of the patch
-- 
+- Dec 18: Recently made a copy for PolyBuffer. The [dt] in the main patch was now changed for BPM.
 
 
 

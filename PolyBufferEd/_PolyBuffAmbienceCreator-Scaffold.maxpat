@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 57.0, 249.0, 1678.0, 999.0 ],
+		"rect" : [ 403.0, 217.0, 1678.0, 999.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -58,8 +58,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 21.0, 426.194690265486713, 280.0, 43.0 ],
-					"text" : "00.AmbienceUI.v01"
+					"patching_rect" : [ 21.0, 426.194690265486713, 395.0, 43.0 ],
+					"text" : "00.PolyBuffAmbienceUI.v01"
 				}
 
 			}
@@ -103,7 +103,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 511.0, 20.0, 382.0, 279.0 ],
+					"patching_rect" : [ 511.0, 20.0, 383.0, 279.0 ],
 					"text" : "Notes to Self and checklist\n\nTo do:\n- [x] (Dec 11) Figure out why we need to reinitialize the polyCore to make the buffer work\n- [ ] (Dec 11) Find a good way to allow for backwards playback? Might also just be easier to use reversed sound files for now so we can deal with this later\n- [ ] (Dec 11) Better control pattern for paramter tuning\n    - ON THIS NOTE: the current ADSR has preset attack and release values. These values should be controllable as percentages of the total duration. Figure that out later (not as important at the moment).\n- [ ] (Dec 11) Good way to use multiple buffers\n\nNotes:\n- Look into Music Concrete for some ideas\n- refer to krell patch for uniquely named receives, etc.\n\n"
 				}
 
@@ -230,7 +230,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 172.0, 561.0, 326.0, 20.0 ],
+					"patching_rect" : [ 219.0, 561.0, 326.0, 20.0 ],
 					"text" : "The main AmbienceCreator Guts"
 				}
 
@@ -241,8 +241,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 21.0, 561.0, 141.0, 22.0 ],
-					"text" : "01.AmbienceCreator.v01"
+					"patching_rect" : [ 21.0, 561.0, 185.0, 22.0 ],
+					"text" : "01.PolyBuffAmbienceCreator.v01"
 				}
 
 			}
@@ -280,8 +280,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 15.0, 434.0, 47.0 ],
-					"text" : "Sound Synth Tech Project"
+					"patching_rect" : [ 6.0, 15.0, 487.0, 47.0 ],
+					"text" : "Poly Buffer Ambience Creator"
 				}
 
 			}
@@ -316,29 +316,36 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "00.AmbienceUI.v01.maxpat",
-				"bootpath" : "~/Documents/Max Course/Max-Patches-Projects/AmbienceCreatorFinalProject",
+				"name" : "00.PolyBuffAmbienceUI.v01.maxpat",
+				"bootpath" : "~/Documents/Max Course/Max-Patches-Projects/AmbienceCreatorFinalProject/PolyBufferEd",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "01.AmbienceCreator.v01.maxpat",
-				"bootpath" : "~/Documents/Max Course/Max-Patches-Projects/AmbienceCreatorFinalProject",
+				"name" : "01.PolyBuffAmbienceCreator.v01.maxpat",
+				"bootpath" : "~/Documents/Max Course/Max-Patches-Projects/AmbienceCreatorFinalProject/PolyBufferEd",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "02.FreqAnalyzer.v02.maxpat",
-				"bootpath" : "~/Documents/Max Course/Max-Patches-Projects/AmbienceCreatorFinalProject",
+				"bootpath" : "~/Documents/Max Course/Max-Patches-Projects/AmbienceCreatorFinalProject/PolyBufferEd",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "03.drawNote.v01.maxpat",
-				"bootpath" : "~/Documents/Max Course/Max-Patches-Projects/AmbienceCreatorFinalProject",
+				"bootpath" : "~/Documents/Max Course/Max-Patches-Projects/AmbienceCreatorFinalProject/PolyBufferEd",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "04.BPMConverter.v01.maxpat",
+				"bootpath" : "~/Documents/Max Course/Max-Patches-Projects/AmbienceCreatorFinalProject/PolyBufferEd",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -346,27 +353,27 @@
 , 			{
 				"name" : "648437__timouse__piano-loop-21.wav",
 				"bootpath" : "~/Documents/Max Course/sound-synth-tech/media",
-				"patcherrelativepath" : "../../sound-synth-tech/media",
+				"patcherrelativepath" : "../../../sound-synth-tech/media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AmbienceCreator.PolyCore.v03.maxpat",
-				"bootpath" : "~/Documents/Max Course/Max-Patches-Projects/AmbienceCreatorFinalProject",
+				"bootpath" : "~/Documents/Max Course/Max-Patches-Projects/AmbienceCreatorFinalProject/PolyBufferEd",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SoundInStereo.maxpat",
-				"bootpath" : "~/Documents/Max Course/Max-Patches-Projects/AmbienceCreatorFinalProject",
+				"bootpath" : "~/Documents/Max Course/Max-Patches-Projects/AmbienceCreatorFinalProject/PolyBufferEd",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SoundOutStereo.maxpat",
-				"bootpath" : "~/Documents/Max Course/Max-Patches-Projects/AmbienceCreatorFinalProject",
+				"bootpath" : "~/Documents/Max Course/Max-Patches-Projects/AmbienceCreatorFinalProject/PolyBufferEd",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
