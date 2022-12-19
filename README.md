@@ -14,6 +14,7 @@ There are three main folders in the repository
 - **PolyBufferEd**: This contains a multibuffer version that will read the contents of a Samples folder. This is the current *unstable* 
 - **Samples**: This folder contains the samples that can either be drag-and-dropped into the MonoBufferEd or it can be 
 - **Figures**: Nothing too important in this folder. It simply contains screenshots of the patch layout and folder layout for the user to refer to. These images are embedded in the README.md files.
+- **Recordings-AmbienceCreator** (NOT DEPICTED IN SCREENSHOT) shows some sample ambiences created using the BPM support in the PolyBufferEd version. (UPDATE: Dec 18 - moved outside since files got huge.)
 
 ![FolderLayout](Figures/FolderLayout.png)
 
@@ -21,7 +22,7 @@ There are three main folders in the repository
 Please refer to the README.md files contained in the **MonoBufferEd** and **PolyBufferEd**. You can start by clicking on the folder of the version you would like to use and refer to the respective README.md files. 
 
 ## Differences between Mono and Poly buffer editions of the patch
-- 
+- Dec 18: Recently made a copy for PolyBuffer. The [dt] in the main patch was now changed for BPM.
 
 
 
